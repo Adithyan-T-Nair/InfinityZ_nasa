@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/rover-roads/rover-roads/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
